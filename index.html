@@ -122,8 +122,61 @@
         </section>
 
         <!-- Section 2 - About Me -->
-        <section>
+        <section
+            class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-24 px-6 md:px-16 lg:px-[90px] mt-40 lg:mt-60">
+            <div class="order-1 lg:order-2 shrink-0">
+                <div class="relative w-[240px] md:w-[280px] lg:w-[340px] aspect-[700/1040]">
 
+                    <div class="absolute inset-0 rotate-[1deg]">
+                        <img src="/images/about/foto-peserta.png" alt="Foto peserta"
+                            class="absolute left-[13%] top-[8%] w-[75%] h-[50%] object-cover" />
+                    </div>
+
+                    <img src="/images/about/card.png" alt=""
+                        class="absolute inset-0 w-full h-full z-10 pointer-events-none" />
+
+                    <div class="absolute inset-0 z-20 rotate-[1deg]">
+                        <div
+                            class="absolute left-[6.4%] w-[87.1%] top-[56%] h-[14.2%] flex items-center justify-center px-[6%]">
+                            <p
+                                class="uppercase text-[#F2405F] text-[1.4rem] md:text-[1.6rem] lg:text-[2rem] leading-none truncate">
+                                Pengajar SIMETRI
+                            </p>
+                        </div>
+
+                        <div class="absolute left-[19%] w-[60%] top-[71.6%] h-[10.6%] flex items-center justify-center">
+                            <p
+                                class="uppercase text-[#F2405F] text-[0.9rem] md:text-[1rem] lg:text-[1.25rem] leading-none truncate">
+                                SMA 1 ITS
+                            </p>
+                        </div>
+
+                        <a href="#fotoku"
+                            class="absolute left-1/2 -translate-x-1/2 top-[85.5%] w-[50.7%] h-[8.4%] flex items-center justify-center bg-[linear-gradient(to_bottom,#F36F41_0%,#F39241_50%,#F36F41_50%,#F39241_100%)] rounded-[8px] border-[#F3B641] border-[1px] outline-[#592918] outline-[1px] drop-shadow-[0_3px_0_#592918] lg:drop-shadow-[0_5px_0_#592918] transition-all duration-100 hover:brightness-90">
+                            <p
+                                class="uppercase text-white text-[0.75rem] md:text-[0.85rem] lg:text-[1.1rem] leading-none whitespace-nowrap">
+                                Lihat Portofolio
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-2 lg:order-1 flex flex-col gap-4 max-w-[560px] text-center lg:text-left">
+                <h1
+                    class="uppercase text-[3.5rem] md:text-[4.5rem] lg:text-[6rem] text-white [-webkit-text-stroke:1px_#7A3D21] lg:[-webkit-text-stroke:2px_#7A3D21] text-shadow-[0_5px_0_#7A3D21] lg:text-shadow-[0_10px_0_#7A3D21] leading-none">
+                    ABOUT<span class="hidden lg:inline"> ME</span>
+                </h1>
+                
+                <p
+                    class="font-times text-[#F9DCB4] text-[1rem] md:text-[1.25rem] lg:text-[1.5rem] leading-snug text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex
+                    ea commodo consequat.
+                </p>
+            </div>
         </section>
 
         <!-- Section 3 - My Skills -->
@@ -163,7 +216,7 @@
         </section>
 
         <!-- Section 4 - Fotoku -->
-        <section>
+        <section id="fotoku">
 
         </section>
     </main>
@@ -184,7 +237,8 @@
                     <a class="text-[#F9DCB4] lg:text-[#C07E4E] text-[1.5rem] lg:text-[32px]" href="">Asik</a>
                 </nav>
             </div>
-            <p class="font-times font-bold text-[14px] lg:text-[20px] text-[#F9DCB4] mt-6 lg:mt-4">&copy; SIMETRI HMSI ITS</p>
+            <p class="font-times font-bold text-[14px] lg:text-[20px] text-[#F9DCB4] mt-6 lg:mt-4">&copy; SIMETRI HMSI
+                ITS</p>
         </div>
     </footer>
 </body>
